@@ -1,0 +1,11 @@
+#Thank You for downloading!
+#Author: AntTheAntster
+#Support: https://discord.link/AntsPlugins
+#Copyright AntTheAntster 2021. All Rights Reserved.
+#For more copyright info, type /aa license
+
+#Do not touch this, its for notifying config updates.
+Version: 1.0
+
+#The economy used by the plugin. Either Vault or Gems (Internal Currency, use "/aa help" in-game for more info)
+Economy: Gems

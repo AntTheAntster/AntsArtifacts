@@ -13,6 +13,14 @@ Economy: Gems
 #Command Prefix
 Prefix: "&eYour&cServer&bHere"
 
+#Shop Settings
+Shop:
+  Size: 9 #9, 18, 27, 36, 45, 54 ONLY!
+  Title: "&eArtifact Shop"
+  Fill Settings:
+    Fill Empty: true #Fill empty slots?
+    Fill Material: "BLACK_STAINED_GLASS_PANE"
+
 
 #Messages used by the plugin
 #Placeholders:

@@ -3,6 +3,8 @@ name: AntsArtifacts
 version: 1.0
 api-version: 1.16
 author: AntTheAntster
+depend:
+  - Vault
 commands:
   gems:
   aa:

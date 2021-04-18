@@ -9,3 +9,14 @@ Version: 1.0
 
 #The economy used by the plugin. Either Vault or Gems (Internal Currency, use "/aa help" in-game for more info)
 Economy: Gems
+
+#Command Prefix
+Prefix: "&eYour&cServer&bHere"
+
+
+#Messages used by the plugin
+#Placeholders:
+#  {gems} - returns the amount of gems for the specified player.
+#  {playername} - displays the target player's name.
+View Own Gems: "&eYour Gems: &a{gems}"
+View Others Gems: "&e{playername}'s Gems: &a{gems}"

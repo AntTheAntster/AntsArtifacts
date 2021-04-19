@@ -6,5 +6,6 @@ author: AntTheAntster
 depend:
   - Vault
 commands:
+  artifacts:
   gems:
   aa:

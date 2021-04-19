@@ -10,21 +10,24 @@ Version: 1.0
 #The economy used by the plugin. Either Vault or Gems (Internal Currency, use "/aa help" in-game for more info)
 Economy: Gems
 
-#Command Prefix
-Prefix: "&eYour&cServer&bHere"
-
-#Shop Settings
-Shop:
-  Size: 18 #9, 18, 27, 36, 45, 54 ONLY!
-  Title: "&eArtifact Shop"
-  Balance Settings:
-    Enabled: true #Enable or disable the item displaying the players balance?
-    Balance Material: EMERALD #Item to represent the players balance (Either Gems balance or Vault balance depending on which one is selected)
-    Slot: 13 #Which Slot?
-    Title: "&eBalance: &a{balance}" #The title of the item ({balance} will display the players balance)
-  Fill Settings:
-    Fill Empty: true #Fill empty slots?
-    Fill Material: "BLACK_STAINED_GLASS_PANE"
+#Menus Settings
+Menu:
+  Title: "&eAnts Artifacts"
+  Shop:
+    Icon: "CHEST"
+    Size: 27 #9, 18, 27, 36, 45, 54 ONLY!
+    Title: "&eArtifact Shop"
+    Balance Settings:
+      Enabled: true #Enable or disable the item displaying the players balance?
+      Balance Material: EMERALD #Item to represent the players balance (Either Gems balance or Vault balance depending on which one is selected)
+      Slot: 13 #Which Slot?
+      Title: "&eBalance: &a{balance}" #The title of the item ({balance} will display the players balance)
+    Fill Settings:
+      Fill Empty: true #Fill empty slots?
+      Fill Material: "BLACK_STAINED_GLASS_PANE"
+  Owned: #Menu size same as Shop Size
+    Icon: "ENDER_CHEST"
+    Title: "&eOwned Artifacts"
 
 
 #Messages used by the plugin

@@ -15,8 +15,13 @@ Prefix: "&eYour&cServer&bHere"
 
 #Shop Settings
 Shop:
-  Size: 9 #9, 18, 27, 36, 45, 54 ONLY!
+  Size: 18 #9, 18, 27, 36, 45, 54 ONLY!
   Title: "&eArtifact Shop"
+  Balance Settings:
+    Enabled: true #Enable or disable the item displaying the players balance?
+    Balance Material: EMERALD #Item to represent the players balance (Either Gems balance or Vault balance depending on which one is selected)
+    Slot: 13 #Which Slot?
+    Title: "&eBalance: &a{balance}" #The title of the item ({balance} will display the players balance)
   Fill Settings:
     Fill Empty: true #Fill empty slots?
     Fill Material: "BLACK_STAINED_GLASS_PANE"

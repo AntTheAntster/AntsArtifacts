@@ -54,6 +54,15 @@ Artifacts:
     Lore:
       - "&ePermanent &bSpeed &eEffect!"
       - "&eCost: &a1000"
+  Haste:
+    Name: "&cSpeed Artifact"
+    Item: "DIAMOND_BOOTS"
+    Slot: 2
+    Price: 1000
+    Effect Level: 1 #Effect Level starting from 0 (0 = Strength 1, 1 = Strength 2, 2 = Strength 3, etc)
+    Lore:
+      - "&ePermanent &bSpeed &eEffect!"
+      - "&eCost: &a1000"
 
 
 #Messages used by the plugin

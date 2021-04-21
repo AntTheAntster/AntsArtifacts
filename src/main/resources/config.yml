@@ -21,6 +21,11 @@ Menu:
     Icon Title: "&bOwned Artifacts"
     Title: "&eOwned Artifacts"
   Shop:
+    Go Back Button:
+      Enabled: true
+      Name: "&cGo Back"
+      Item: "BARRIER"
+      Slot: 17
     Icon: "CHEST"
     Icon Title: "&bArtifacts Shop"
     Size: 18 #9, 18, 27, 36, 45, 54 ONLY!
@@ -37,6 +42,7 @@ Menu:
 #Artifacts Settings
 Artifacts:
   Strength:
+    Enabled: true
     Name: "&cStrength Artifact"
     Item: "DIAMOND_SWORD"
     Slot: 0
@@ -46,6 +52,7 @@ Artifacts:
       - "&ePermanent &cStrength &eEffect!"
       - "&eCost: &a1000"
   Speed:
+    Enabled: true
     Name: "&cSpeed Artifact"
     Item: "DIAMOND_BOOTS"
     Slot: 1
@@ -55,13 +62,74 @@ Artifacts:
       - "&ePermanent &bSpeed &eEffect!"
       - "&eCost: &a1000"
   Haste:
-    Name: "&cSpeed Artifact"
-    Item: "DIAMOND_BOOTS"
+    Enabled: true
+    Name: "&cHaste Artifact"
+    Item: "DIAMOND_PICKAXE"
     Slot: 2
     Price: 1000
     Effect Level: 1 #Effect Level starting from 0 (0 = Strength 1, 1 = Strength 2, 2 = Strength 3, etc)
     Lore:
-      - "&ePermanent &bSpeed &eEffect!"
+      - "&ePermanent &bHaste &eEffect!"
+      - "&eCost: &a1000"
+  Jump Boost:
+    Enabled: true
+    Name: "&cJump Boost Artifact"
+    Item: "RABBIT_HIDE"
+    Slot: 3
+    Price: 1000
+    Effect Level: 1 #Effect Level starting from 0 (0 = Strength 1, 1 = Strength 2, 2 = Strength 3, etc)
+    Lore:
+      - "&ePermanent &bJump Boost &eEffect!"
+      - "&eCost: &a1000"
+  Health Boost:
+    Enabled: true
+    Name: "&cHealth Boost Artifact"
+    Item: "GOLDEN_APPLE"
+    Slot: 4
+    Price: 1000
+    Effect Level: 1 #Effect Level starting from 0 (0 = Strength 1, 1 = Strength 2, 2 = Strength 3, etc)
+    Lore:
+      - "&ePermanent &bHealth Boost &eEffect!"
+      - "&eCost: &a1000"
+  Resistance:
+    Enabled: true
+    Name: "&cResistance Artifact"
+    Item: "SHIELD"
+    Slot: 5
+    Price: 1000
+    Effect Level: 1 #Effect Level starting from 0 (0 = Strength 1, 1 = Strength 2, 2 = Strength 3, etc)
+    Lore:
+      - "&ePermanent &bResistance &eEffect!"
+      - "&eCost: &a1000"
+  Fire Resistance:
+    Enabled: true
+    Name: "&cFire Resistance Artifact"
+    Item: "BLAZE_ROD"
+    Slot: 6
+    Price: 1000
+    Effect Level: 1 #Effect Level starting from 0 (0 = Strength 1, 1 = Strength 2, 2 = Strength 3, etc)
+    Lore:
+      - "&ePermanent &bFire Resistance &eEffect!"
+      - "&eCost: &a1000"
+  Water Breathing:
+    Enabled: true
+    Name: "&cWater Breathing Artifact"
+    Item: "KELP"
+    Slot: 7
+    Price: 1000
+    Effect Level: 1 #Effect Level starting from 0 (0 = Strength 1, 1 = Strength 2, 2 = Strength 3, etc)
+    Lore:
+      - "&ePermanent &bWater Breathing &eEffect!"
+      - "&eCost: &a1000"
+  Regeneration:
+    Enabled: true
+    Name: "&cRegeneration Artifact"
+    Item: "CAKE"
+    Slot: 8
+    Price: 1000
+    Effect Level: 1 #Effect Level starting from 0 (0 = Strength 1, 1 = Strength 2, 2 = Strength 3, etc)
+    Lore:
+      - "&ePermanent &bRegeneration &eEffect!"
       - "&eCost: &a1000"
 
 
@@ -72,3 +140,5 @@ Artifact Bought: "&eYou just bought an Artifact!"
 Artifact Already Owned: "&cYou already own this artifact"
 Artifact Enabled: "&aArtifact Enabled!"
 Artifact Disabled: "&cArtifact Disabled!"
+Not Enough Gems: "&cNot Enough Gems!"
+Not Enough Money: "&cNot Enough Money"
